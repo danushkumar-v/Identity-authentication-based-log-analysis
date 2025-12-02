@@ -18,6 +18,25 @@ In addition to face recognition, the system could also be configured to perform 
 
 ## 🚀 Quick Installation
 
+### Using Setup Scripts (Easiest)
+
+**Linux/macOS:**
+```bash
+git clone https://github.com/danushkumar-v/Identity-authentication-based-log-analysis.git
+cd Identity-authentication-based-log-analysis
+chmod +x setup.sh
+./setup.sh
+```
+
+**Windows:**
+```bash
+git clone https://github.com/danushkumar-v/Identity-authentication-based-log-analysis.git
+cd Identity-authentication-based-log-analysis
+setup.bat
+```
+
+### Manual Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/danushkumar-v/Identity-authentication-based-log-analysis.git

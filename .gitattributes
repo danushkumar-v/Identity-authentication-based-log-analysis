@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Shell scripts should use LF line endings
+*.sh text eol=lf
+
+# Batch files should use CRLF line endings
+*.bat text eol=crlf
+
+# Python files should use LF line endings
+*.py text eol=lf
+

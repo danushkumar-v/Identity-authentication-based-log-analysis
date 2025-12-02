@@ -59,6 +59,31 @@ brew install opencv
 
 ## Installation
 
+### Quick Setup (Recommended)
+
+For the easiest setup, use the provided setup scripts:
+
+#### On Linux/macOS:
+```bash
+chmod +x setup.sh
+./setup.sh
+```
+
+#### On Windows:
+```bash
+setup.bat
+```
+
+The scripts will automatically:
+- Create a virtual environment
+- Install all dependencies
+- Set up the project structure
+- Offer to start the application
+
+### Manual Installation
+
+If you prefer manual installation, follow these steps:
+
 ### Step 1: Clone the Repository
 
 ```bash
