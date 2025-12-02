@@ -82,9 +82,13 @@ if /i "%response%"=="y" (
     echo Starting the application...
     echo The app will open in your browser at http://localhost:8501
     streamlit run rec.py
-) else (
+) else if /i "%response%"=="n" (
     echo.
     echo You can start the application later by running:
+    echo   streamlit run rec.py
+) else (
+    echo.
+    echo Invalid response. You can start the application later by running:
     echo   streamlit run rec.py
 )
 

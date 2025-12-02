@@ -139,9 +139,13 @@ pip install dlib
 ```
 
 **For Windows:**
-Download pre-compiled dlib wheel from [here](https://github.com/sachadee/Dlib) and install:
+Download pre-compiled dlib wheel matching your Python version from [here](https://github.com/sachadee/Dlib) and install:
 ```bash
+# Example for Python 3.9 (adjust version number to match your Python installation)
 pip install dlib-19.22.0-cp39-cp39-win_amd64.whl
+
+# Check your Python version with:
+python --version
 ```
 
 ---
@@ -459,4 +463,4 @@ This project is available for educational and research purposes.
 
 ---
 
-**Last Updated**: December 2025
+**Last Updated**: December 2024

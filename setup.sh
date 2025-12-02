@@ -84,7 +84,7 @@ if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
     echo "Starting the application..."
     echo "The app will open in your browser at http://localhost:8501"
     streamlit run rec.py
-else
+elif [[ -n "$response" ]]; then
     echo ""
     echo "You can start the application later by running:"
     echo "  streamlit run rec.py"
