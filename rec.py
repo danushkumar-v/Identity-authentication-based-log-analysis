@@ -5,13 +5,17 @@ from App_functions import webfun as wb
 import pandas as pd
 import datetime
 import plotly.express as px
+import os
+
 st.set_page_config(
     page_title="Real-Time Identity Authentication",
     page_icon="🌟",
 )
 
-imagedirpath = "D:\DK\Dev\Face rec\ImageAttendence"
-df = pd.read_csv("D:\DK\Dev\Face rec\Files\Dataset2.csv")
+# Use relative paths from the project root
+base_dir = os.path.dirname(os.path.abspath(__file__))
+imagedirpath = os.path.join(base_dir, "ImageAttendence")
+df = pd.read_csv(os.path.join(base_dir, "Files", "Dataset2.csv"))
 encoded_list , imgclasses= im.do_encoding(imagedirpath)
  
 st.header("Identity authentication based log analysis")
